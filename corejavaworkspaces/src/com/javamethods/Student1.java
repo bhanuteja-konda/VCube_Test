@@ -1,6 +1,6 @@
 package com.javamethods;
 import java.util.Scanner;
-public class StudentResult {
+public class Student1 {
 	void displayStudent(String name) {
 		System.out.println("Name of the Student : "+ name);
 	}

@@ -1,6 +1,6 @@
 package com.javamethods;
 import java.util.Scanner;
-public class Bank {
+public class Bank1 {
 	double calculateIntrest(double principal,double rate,int time) {
 		double res=((principal*rate*time)/100);
 		return res;

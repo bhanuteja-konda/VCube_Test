@@ -1,6 +1,6 @@
 package com.javamethods;
 
-public class Recharge {
+public class Recharge1 {
 	String planName="Unlimited 299";
 	int validity = 28;
 	float data= 2.5f;
