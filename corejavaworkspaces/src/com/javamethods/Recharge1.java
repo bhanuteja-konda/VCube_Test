@@ -17,9 +17,12 @@ public class Recharge1 {
 		System.out.println("Recahrge Successful!");
 		System.out.println("Recharge Amount : "+amount);
 	}
-	void main(String[] args) {
-		showPlanDetails();
-		recharge(399.0);
+	public static void main(String[] args) {
+		Recharge1 r1= new Recharge1();
+		Recharge1 r2= new Recharge1();
+		r1=r2;
+		r1.showPlanDetails();
+		r2.recharge(399.0);
 	}
 
 }
