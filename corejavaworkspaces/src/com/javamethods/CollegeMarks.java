@@ -43,7 +43,7 @@ public class CollegeMarks {
 		double s8 = sc.nextDouble();
 		double f = cGPA(s1,s2,s3,s4,s5,s6,s7,s8);
 		System.out.println("CGPA will be  : "+f);
-		
+		sc.close();
 	}
 	
 

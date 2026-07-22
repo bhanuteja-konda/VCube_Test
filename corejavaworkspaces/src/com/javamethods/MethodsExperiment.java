@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MethodsExperiment {
 	int addMethod(int a,int b) {
 		int c = a+b;
-		
+		multiMethod(c, 20);
 		return c;
 	}
 	void multiMethod(int c,int d) {
@@ -19,9 +19,6 @@ public class MethodsExperiment {
 		int b= sc.nextInt();
 		int c = addMethod(a,b);
 		System.out.println("The addition result is :"+c);
-		System.out.println("Enter the value of d :");
-		int d = sc.nextInt();
-		multiMethod(c,d);
 		sc.close();
 		}
 

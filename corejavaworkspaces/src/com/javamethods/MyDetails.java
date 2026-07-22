@@ -62,7 +62,7 @@ public class MyDetails {
 		getColName(cname);
 		getCGPA(res);
 		
-		
+		sc.close();
 		
 	}
 
