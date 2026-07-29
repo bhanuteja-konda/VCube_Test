@@ -4,9 +4,7 @@ public class ProductDetails {
 	int productId;
 	String productName;
 	double price;
-	ProductDetails(){
-		
-	}
+	ProductDetails(){}
 	ProductDetails(int id,String name,double cost){
 		productId=id;
 		productName=name;
